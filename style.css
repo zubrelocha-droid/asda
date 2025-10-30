@@ -1,0 +1,147 @@
+* {
+    margin:0;
+    padding: 0;
+}
+html,body {
+  height: 100%;
+}
+header, main, footer {
+    width:1040px;
+    margin:0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+#wrapper{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height:120px;
+
+}
+main{
+    padding-bottom: 100px;
+}
+footer{   
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+}
+body{
+    background-color: rgb(116, 0, 106);
+    color: rgb(255, 255, 255);
+    font-family: Noto-sans;
+}
+.main_img-float{
+    width: 550px;
+    margin-right: 40px;
+    float: left;
+}
+#panorama{
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover; 
+}
+.services_img{
+    width: 240px;
+}
+.services_item{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 240px;
+    float: left;
+}
+.services{
+    padding: 35px;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.h1--invisible{
+    visibility: hidden;
+}
+.h1{
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 35px;
+}
+.pan{
+    width: 600px;
+    margin-left: 230px;
+}
+.im{
+    width: 600px;
+    margin-left: 230px;
+}
+.ma{
+    text-align: center;
+}
+.h2{
+    margin: 10px;
+}
+.h{
+    color: rgb(234, 0, 255);
+    text-decoration: none;
+    margin: 10px;
+}
+#logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    line-height: 100px;
+    font-weight: bold;
+    float: left;
+}
+#pik{
+    height: 300px;
+    width: 300px;
+}
+.pink{
+    color: rgb(247, 0, 255);
+}
+.footer_block,.footer_icons{
+    display: inline-block;
+    width: 335px;
+}
+.footer_icons{
+    text-align: right;
+}
+.footer_img{
+    width: 50px;
+    margin-left: 10px;
+}
+h1, h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+#mainnav ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-left: 30px;
+}
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #mainnav li{
+    display: inline;
+    text-indent: 30px;
+    padding-left: 95px;
+    padding-top: 35px;
+}
+.price tr:nth-child(2), .price tr:nth-child(4) {
+    background-color: rgba(128, 0, 0, 0.534);
+}
+.price th:nth-child(2), .price th:last-child{
+    width: 25%;
+    background-color: rgb(0, 4, 243);
+}
